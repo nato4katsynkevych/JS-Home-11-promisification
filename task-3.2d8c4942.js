@@ -1,0 +1,2 @@
+(n=>{const o=(a=200,e=500,Math.floor(Math.random()*(e-a+1)+a));var a,e;return new Promise(((a,e)=>{setTimeout((()=>{Math.random()>.3?a({one:n.id,delay:o}):e(n.id)}),o)}))})({id:70,amount:150}).then((function(n){console.log(`Transaction ${n.one} processed in ${n.delay}ms`)})).catch((n=>{console.warn(`Error processing transaction ${n}. Please try again later.`)}));
+//# sourceMappingURL=task-3.2d8c4942.js.map

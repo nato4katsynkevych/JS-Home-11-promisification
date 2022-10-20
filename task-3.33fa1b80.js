@@ -1,0 +1,2 @@
+!function(){var n,o,a,t;(n={id:70,amount:150},o=200,a=500,t=Math.floor(Math.random()*(a-o+1)+o),new Promise((function(o,a){setTimeout((function(){Math.random()>.3?o({one:n.id,delay:t}):a(n.id)}),t)}))).then((function(n){console.log("Transaction ".concat(n.one," processed in ").concat(n.delay,"ms"))})).catch((function(n){console.warn("Error processing transaction ".concat(n,". Please try again later."))}))}();
+//# sourceMappingURL=task-3.33fa1b80.js.map
